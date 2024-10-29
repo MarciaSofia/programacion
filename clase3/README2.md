@@ -1,0 +1,1 @@
+En esta carpeta guardo el ejercicio que habia que realizar segun el material teorico. Distinto al visto en clase para ejercitar.
