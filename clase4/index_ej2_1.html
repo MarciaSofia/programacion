@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mas etiquetas</title>
+</head>
+
+<body>
+    <!-- Etiquetas anchor y listas -->
+    <h1>El h1 es un elemento en bloque</h1>
+    <a href="http://">son elementos en linea</a>
+    <a href="http://">son elementos en linea</a>
+
+    <!-- Lista ordenada -->
+    <h2>Lista ordenada</h2>
+    <ol>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+    </ol>
+    <!-- Lista desordenada -->
+    <h2>Lista desordenada</h2>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+    <!-- Lista de definición -->
+    <h2>Lista de definición</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de etiquetas</dd>
+        <dt>CSS</dt>
+        <dd>Lenguaje de estilos</dd>
+    </dl>
+    <!-- Tablas -->
+    <h2>Tablas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Informacion personal</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>25</td>
+                <td rowspan="2">Cordoba</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>32</td>
+                <td>San luis</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Pie de tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Formularios -->
+    <h2>Formulario</h2>
+
+    <form> 
+        <div>
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="consulta">Tipo de consulta:</label> <select id="consulta" name="consulta">
+                <option value="general">Consulta general</option>
+                <option value="pedido">Información de pedido</option>
+                <option value="soporte">Soporte técnico</option>
+            </select>
+        </div>
+        <div>
+            <label for="newsletter">Suscribirse al boletín:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+        </div>
+        <div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"> Escribe tu mensaje aquí...
+            </textarea>
+        </div>
+        <input type="submit" value="Enviar consulta">
+    </form>
+
+</body>
+
+</html>
