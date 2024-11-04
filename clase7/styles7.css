@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* titulo */
+h1{
+    color: blueviolet;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,47 @@
+/* formateo global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estiliza la lista .lista-colores para que tenga un fondo gris claro y cada ítem de la lista tenga un borde sólido con un margen y un padding adecuados. */
+.lista-colores {
+  background-color: lightgrey;
+  list-style-type: none;
+  padding: 2%;
+}
+li{
+    font-size: xx-large;
+    color: white;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    margin: 2%;
+    padding: 3%;
+    text-align: center;
+}
+#rojo{
+    background-color: red;
+}
+#verde{
+    background-color: green;
+}
+#azul{
+    background-color: blue;
+}
+
+/* botones */
+.contenedor-botones{
+    text-align: center;
+}
+button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    margin-top: 10px;
+    padding: 10px 20px; /* Relleno interno */
+    text-align: center; /* Alineación del texto */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}

@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(255, 0, 0, 0.5);/* 0.5 es 50% opacidad */
+    background-color: rgb(50, 140, 230);      
+}

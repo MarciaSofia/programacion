@@ -1,0 +1,22 @@
+/* formateo global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cambia el color del texto del <h1> a azul oscuro. */
+h1{
+    color: darkblue;
+}
+
+/* Aumenta el tamaño del texto de la clase .destacado a 18px y cambia su color a rojo. */
+.destacado{
+    font-size: 18px;
+    color: red;
+}
+
+/* Aplica un estilo al enlace dentro del párrafo con ID informacion para que siempre esté subrayado y sea de color verde.*/
+#informacion a{
+    text-decoration: underline;
+    color: green;
+}
