@@ -1,0 +1,59 @@
+body{
+    background-color: gainsboro;
+}
+
+.card{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    margin: 20px;
+}
+
+.gradient {
+  background: rgb(202, 199, 215);
+  background: radial-gradient(
+    circle,
+    rgba(202, 199, 215, 1) 0%,
+    rgba(188, 81, 226, 1) 54%,
+    rgba(131, 18, 109, 1) 100%
+  );
+  width: 100%;
+  height: 50%;
+  border-radius: 8px 8px 80% 8px;
+
+}
+
+.content {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.content h2{
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+}
+
+.content button{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 8px;
+    background: rgb(202, 199, 215);
+  background: radial-gradient(
+    circle,
+    rgba(202, 199, 215, 1) 0%,
+    rgba(188, 81, 226, 1) 54%,
+    rgba(131, 18, 109, 1) 100%
+  );
+  color: rgb(15, 14, 14);
+}
