@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parrafo {
+  text-align: justify;
+  font-size: clamp(16px, 4vw, 20px);
+}
+
+.imagen {
+  width: 50vw;
+  height: auto;
+}
+.titulo {
+  font-size: clamp(24px, 5vw, 48px);
+}
+@media (max-width: 600px) {
+  .imagen {
+    width: 100vw;
+  }
+  .parrafo {
+    text-align: center;
+  }
+  .titulo { 
+    text-align: center;
+  }
+}

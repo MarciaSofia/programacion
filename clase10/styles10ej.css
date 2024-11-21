@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo {
+    width: 60px;
+    height: auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;    
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    nav ul li{
+        display: none;
+    }
+}
+
+main .content {
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+
+@media (max-width: 800px) {
+    main .content {
+        flex-direction: column;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
