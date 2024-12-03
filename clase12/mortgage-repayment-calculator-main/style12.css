@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+  background-color: blue;
+}
+h1 {
+  color: hsl(202, 55%, 16%);
+}
+.clear {
+  color: hsl(200, 24%, 40%);
+  text-decoration: underline;
+  margin-top: -15px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.input-amount {
+  position: relative;  
+}
+.input-amount > input {
+    background: linear-gradient(to right, #d4f1f5 15%, transparent 15%);
+    background-size: 100% 100%;
+}
+.input-amount > span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 25px;
+  color: hsl(202, 55%, 16%);
+}
+.input-term {
+  position: relative;
+}
+.input-term > input {
+    background: linear-gradient(to left, #d4f1f5 20%, transparent 20%);
+    background-size: 100% 100%;
+}
+.input-term > span {
+  position: absolute;
+  right: 25px;
+  transform: translateY(50%);
+  color: hsl(202, 55%, 16%);
+}
+.input-rate {
+  position: relative;
+}
+.input-rate > input {
+    background: linear-gradient(to left, #d4f1f5 15%, transparent 15%);
+    background-size: 100% 100%;
+}
+.input-rate > span {
+  position: absolute;
+  right: 25px;
+  transform: translateY(50%);
+  color: hsl(202, 55%, 16%);
+}
+
+main {
+  width: 400px;
+  height: 600px;
+  border-radius: 2px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  color: hsl(202, 55%, 16%);
+  font-size: 16px;
+}
+input[type="number"] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid hsl(202, 55%, 16%);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  outline: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.input-repayment,
+.input-interest {
+  border: 1px solid hsl(202, 55%, 16%);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.input-repayment > input {
+  margin-right: 15px;
+}
+.input-repayment > span {
+  color: hsl(202, 55%, 16%);
+}
+.input-interest > span {
+  color: hsl(202, 55%, 16%);
+}
+.input-interest > input {
+  margin-right: 15px;
+}
+button {
+  width: 100%;
+  color: hsl(202, 55%, 16%);
+  font-size: large;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  background-color: hsl(61, 70%, 52%);
+}
